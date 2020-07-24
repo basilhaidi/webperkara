@@ -15,11 +15,9 @@
     src: local('Berlin Sans FB Bold'), url('BRLNSB.woff') format('woff');
     }
 
-body{
-    margin: 0;
-    padding: 0;
+html,body,header{
+    scroll-behavior: smooth;
 }
-
 nav .navbar-nav a, .jumbotron, .navbar-brand, .tombol{
     font-family: 'Berlin Sans FB';
 }
@@ -80,14 +78,15 @@ nav .navbar-nav a, .jumbotron, .navbar-brand, .tombol{
     color: #ffffff;
 }
 
+.icon{
+    width: 20%;
+    margin-left: 40%;
+}
+
 .footer{
     padding: 16px;
+    font-family: 'Berlin Sans FB';
 }
-
-.icon{
-    width: 15%;
-}
-
 
 @media (min-width: 992px) { 
     .nav-link{
@@ -125,7 +124,11 @@ nav .navbar-nav a, .jumbotron, .navbar-brand, .tombol{
         margin-top: 5%;
     }
 
-    #kegiatan{
+    #kegiatan-img{
         width: 50%;
     }
- }
+
+    .footer p{
+        font-size: 20px;
+    }
+}
