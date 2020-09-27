@@ -1,2 +1,2 @@
 # webperkara2
-HTML + CSS + Bootstraps 4
+HTML + CSS + Javascript + Bootstraps 4
